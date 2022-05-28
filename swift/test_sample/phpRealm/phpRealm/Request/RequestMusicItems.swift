@@ -12,7 +12,7 @@ class RequestMusicItems: ObservableObject {
     public var models: [MusicItem] = []
 
     init(){
-        featchData()
+        featchData() 
     }
 
     func featchData() {
